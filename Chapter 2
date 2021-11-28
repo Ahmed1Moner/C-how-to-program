@@ -1,0 +1,209 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+//answer to question 10 (2.16):
+
+/*
+int n1;
+int n2;
+
+
+cout << "Enter the first number: " << "\n";
+cin >> n1;
+
+cout << "Enter the second number: " << "\n";
+cin >> n2;
+
+cout << "Sum of the numbers is: " << n1+n2 << endl;
+cout << "Difference of the numbers is: " << n1-n2 << endl;
+cout << "Product of the numbers is: " << n1*n2 << endl;
+cout << "Quotient of the numbers is: " << n1/n2 << endl;
+
+*/
+//answer to question 11 (2.17):
+
+/*
+//(a)
+cout << "1 2 3 4" << endl;
+//(b)
+cout << "1 " << "2 " << "3 " << "4";
+cout << endl;
+//(c)
+cout << "1 ";
+cout << "2 ";
+cout << "3 ";
+cout << "4" << endl;
+*/
+
+//answer to question 12 (2.18):
+/*
+int n1;
+int n2;
+
+
+cout << "Enter the first number: " << "\n";
+cin >> n1;
+
+cout << "Enter the second number: " << "\n";
+cin >> n2;
+
+if (n1>n2){
+    cout << n1 << " is larger than " << n2 << endl;
+}
+else if (n1==n2){
+    cout << "These numbers are equal." << endl;
+}
+else{
+    cout << n2 << " is larger than " << n1 << endl;
+}
+*/
+
+//answer to question 13 (2.19):
+
+/*
+
+//Define all variables
+int num1;
+int num2;
+int num3;
+
+//taking the input integers from the user and store them
+cout << "Input three different integers: " << "\n";
+cin >> num1;
+cin >> num2;
+cin >> num3;
+
+
+//printing the sum, average, and the product of the numbers
+cout << "Sum is: " << num1 + num2 + num3 << endl;
+cout << "Average is: " << (num1 + num2 + num3) / 3 << endl;
+cout << "Product is: " << num1 * num2 * num3 << endl;
+
+//making conditions to compare the numbers, print the largest one
+if (num1>num2&&num1>num3){
+    cout << "Largest is: " << num1 << endl;
+}
+else if (num2>num1&&num2>num3){
+    cout << "Largest is: " << num2 << endl;
+}
+else if (num3>num1&&num3>num2){
+    cout << "Largest is: " << num3 << endl;
+}
+
+
+//making conditions to compare the numbers, print the smallest one
+if (num1<num2&&num1<num3){
+    cout << "Smallest is: " << num1 << endl;
+}
+else if (num2<num1&&num2<num3){
+    cout << "Smallest is: " << num2 << endl;
+}
+
+else if (num3<num2&&num3<num1){
+    cout << "Smallest is: " << num3 << endl;
+}
+*/
+
+
+//answer to q 15 (2.21):
+
+/*
+//line 1
+cout << "*********         " << "***         " << "*         " << "*" << endl;
+
+//line 2
+cout << "*       *       " << "*     *      " << "***      " << "*" << "   *" << endl;
+
+//line 3
+cout << "*       *       " << "*     *     " << "*****    " << "*" << "     *" << endl;
+
+//line 4
+cout << "*       *       " << "*     *       " << "*    " << " *       *" << endl;
+
+//line 5
+cout << "*       *       " << "*     *       " << "*    " << "*         *" << endl;
+
+//line 6 will be as same as line 4
+cout << "*       *       " << "*     *       " << "*    " << " *       *" << endl;
+
+//line 7 will be as same as line 3
+cout << "*       *       " << "*     *     " << "  *    " << "  *" << "     *" << endl;
+
+//line 8 will be as same as line 2
+cout << "*       *       " << "*     *      " << " *      " << " *" << "   *" << endl;
+
+//line 9 will be as same as line 1
+cout << "*********         " << "***         " << "*         " << "*" << endl;
+*/
+
+
+//answer to q 16 (2.22):
+
+
+/*
+//it will print 1 star in the first line, 2 stars in the second line
+// 3 stars in the third line, 4 stars in the foursh
+*
+**
+***
+****
+*/
+
+
+//answer to q 18 (2.24):
+/*
+//define the variable
+int x;
+
+//ask the user in input a digit number and store it in x variable
+cout << "Enter an integer value: ";
+cin >> x;
+
+//making a condition as if the reminder of the division
+// of the variable by is equal 0, it is even number, and if not, it is odd one
+if (x%2==0){
+    cout << "The number is even.";
+}
+else {
+    cout << "The number is odd.";
+}
+*/
+
+
+//answer to q 19(2.25):
+
+
+
+//answer to q 20(2.26):
+
+/*
+//line 1
+cout << "* * * * * * * *" << endl;
+
+//line 2
+cout << " * * * * * * * *" << endl;
+
+//line 3
+cout << "* * * * * * * *" << endl;
+
+//line 4
+cout << " * * * * * * * *" << endl;
+
+//line 5
+cout << "* * * * * * * *" << endl;
+
+//line 6
+cout << " * * * * * * * *" << endl;
+
+//line 7
+cout << "* * * * * * * *" << endl;
+
+//line 8
+cout << " * * * * * * * *" << endl;
+*/
+
+
+return 0;
+}
